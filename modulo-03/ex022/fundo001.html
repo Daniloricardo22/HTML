@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papel de Parede</title>
     <style>
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+
+        }
+        div#q1  {
+            background-color: aquamarine;
+        }
+        div#q2  {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3 {
+            background-image: url('imagens/pattern002.png');
+        }
         body {
             background-image: url('imagens/wallpaper001.jpg');
         }
     </style>
 </head>
 <body>
-    <h1>Papel de parede</h1>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <h1>Teste de backgroud</h1>
 </body>
 </html>
