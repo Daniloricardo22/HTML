@@ -7,14 +7,21 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
-            background-image: url("imagens/wallpaper002.jpg");background-position: center top;
+            /*background-color: black;
+            background-image: url("imagens/wallpaper002.jpg");background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* shorthand - background
+            ordem: color> image > position > repeat > (size) > attachment
+            */
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
             background-size: cover;
         }
         main {
             background-color: whitesmoke;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -25,6 +32,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus explicabo tempora molestias illo magnam voluptatem. Ullam debitis animi vel blanditiis esse excepturi? Ratione ullam velit tempora, hic excepturi temporibus quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cum itaque. Voluptatibus vero quas vel debitis assumenda vitae, nam amet totam harum nisi pariatur ratione. Magni dicta dignissimos quis voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusamus doloremque porro, corporis eaque dolores ipsum earum laudantium maiores! Deserunt repellat minus ducimus ipsam saepe sit alias eum fuga cupiditate.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus explicabo tempora molestias illo magnam voluptatem. Ullam debitis animi vel blanditiis esse excepturi? Ratione ullam velit tempora, hic excepturi temporibus quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cum itaque. Voluptatibus vero quas vel debitis assumenda vitae, nam amet totam harum nisi pariatur ratione. Magni dicta dignissimos quis voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusamus doloremque porro, corporis eaque dolores ipsum earum laudantium maiores! Deserunt repellat minus ducimus ipsam saepe sit alias eum fuga cupiditate.
+        </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus explicabo tempora molestias illo magnam voluptatem. Ullam debitis animi vel blanditiis esse excepturi? Ratione ullam velit tempora, hic excepturi temporibus quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cum itaque. Voluptatibus vero quas vel debitis assumenda vitae, nam amet totam harum nisi pariatur ratione. Magni dicta dignissimos quis voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusamus doloremque porro, corporis eaque dolores ipsum earum laudantium maiores! Deserunt repellat minus ducimus ipsam saepe sit alias eum fuga cupiditate.
         </p>
     </main>
